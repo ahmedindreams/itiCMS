@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <div class="main">
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="form.html">Registration Form</a></li>
+            <li><a href="https://www.iti.gov.eg" target="_blank">Contact</a></li>
+        </ul>
+        </nav>
+        
+        <img class="logo" src="./img/ITI_logo.png" alt="logo" width="150">
+    </div>
+    </header>
+
+    <div class="formdiv">
+    <h1 class="formh1">Register-Create Accont</h1>
+    <p class="formp">Field marked with <span style="color: red;">*</span> are compulsory field</p>
+    <form action="">
+        <table>
+            <tr>
+              <td class="label"><label><span style="color: red;">*</span> Your Name</label></td>
+              <td><input type="text" name="name" required></td>
+              
+            </tr>
+            <tr>
+                <td class="label"><label><span style="color: red;" >*</span> E-Mail ID</label></td>
+                <td><input type="email" name="email" required size="30"></td>
+                
+              </tr>
+              <tr>
+                <td class="label"><label>Your Phone</label></td>
+                <td  white-space:pre>
+                    <p>Country Code-City Code-Phone Number</p>
+                    <input type="text" name="Country" size="4"><span>-</span><input type="text" name="City" size="4"><span>-</span><input type="text" name="Phone">
+                </td>
+                
+              </tr>
+              <tr>
+                <td class="label"><label><span style="color: red;">*</span> Your Postal Address</label></td>
+                <td><textarea  name="textarea" rows="4" cols="50" required></textarea></td>
+                
+              </tr>
+              <tr>
+                <td class="label"><label><span style="color: red;">*</span> Country</label></td>
+                <td><select name="Country" required >
+                    <option value="select" disabled selected>--Select--</option>
+                    <option value="Alex">Alex</option>
+                    <option value="Alex">Cairo</option>
+                </select></td>
+                
+              </tr>
+              <tr>
+                <td class="label"><label><span style="color: red;">*</span> Password</label></td>
+                <td><input type="password" name="password" required></td>
+                
+              </tr>
+          </table>
+          <div class="terms">
+          <input type="checkbox">
+          <label>I accept the <a href="">Terms of Use</a></label>
+          <br>
+          <input type="submit" value="Continue >>">
+          <input type="reset">
+        </div>
+    </form>
+    </div>
+    <footer>
+        <p style="color: cornflowerblue; text-align: center;">Copyright 2021 by Ahmed AlaaEldin &reg;. Rights Reserved.</p>
+        </footer>
+</body>
+</html>
