@@ -1,7 +1,11 @@
 nav ul li{
     display: inline-block;
-    padding-right: 10px;
+    padding: 20px;
    
+}
+
+nav ul {
+  margin: 0px;
 }
 
 nav ul li a{
@@ -17,7 +21,7 @@ header {
 }
 nav{
     display: inline-block;
-   
+    
     
 }
 
@@ -71,3 +75,12 @@ nav{
     text-align: right;
   }
 
+.main li a:hover{
+  background-color: red;
+  
+}
+
+
+.navlink{
+  padding: 20px;
+}
